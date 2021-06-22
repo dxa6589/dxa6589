@@ -1,6 +1,7 @@
 - 👋 Hi, I’m Dolapo Atobiloye
-- 👀 I’m interested in Video Game Development, QA, Data Management and Musical Theater
-- 🌱 I’m currently learning Maya, Ruby, arnoldc 
+- 👀 I’m interested in Video Game Development, QA, Data Management
+- ❤️ I am a huge Musical Theater nerd :)
+- 🌱 I’m currently learning javascript 
 - 💞️ I’m looking to collaborate on amazing game projects!
 - 📫 How to reach me by email at dolapoatobiloye@gmail.com
 

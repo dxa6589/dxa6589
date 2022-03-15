@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Dolapo's Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+    </head>
+    <body onload="getLogin()">
+        <div id="nav">
+            <h1>♥DOLAPO'S  PORTFOLIO</h1>
+            <ul id="nav-list">
+                <a id="current" href="#"><li>HOME</li></a>
+                <a href="./pages/gallery.html"><li>GALLERY</li></a>
+                <a href="./pages/resume.html"><li>RESUME</li></a>
+                <a id="login" href="#"><li>LOGIN</li></a>
+            </ul></b>
+        </div>
+
+        <div id="content">
+            <div id="about" class="infoBox">
+                <h2>About Me</h2>
+                <img id="me" src="./images/bitmoji.png">
+                <p>
+                    My name is Oluwadolapo "Dolapo" Atobiloye. I am a second-year 
+                    Bachelor's of Science student studying Computer Science at 
+                    Rochester Insitute of Technology with a minor in Game Design 
+                    & Development and an Immersion in Theater Arts.
+                </p>
+                <p>
+                    I have experience as a Software Engineering intern in Terragon 
+                    Group located in Lagos Nigeria. I have also completed multiple 
+                    computer science and web design courses in my time at RIT.
+                </p>
+                <p>
+                    I am a huge fan of musical theater and while I'm not much of a 
+                    singer, I consider myself a budding actress. I originated the 
+                    role of Yashira in the origianl play AI-Pollo by David Munnell.
+                    I also performed as #8 in RIT performing arts scholarship's 
+                    production of "The Wolves". I try to abide by the motto "Live
+                    while you can", which basically means try everything and is how 
+                    I got into musicals in the first place. 
+                </p>
+            </div>
+
+            <div id="contact" class="infoBox">
+                <p>
+                    You can find me on LinkedIn and GitHub through the links below:
+                </p>
+                <button id="lin" onclick="window.location.href='https://www.linkedin.com/in/dolapo-atobiloye'"></button>
+                <button id="ghub"  onclick="window.location.href='https://www.github.com/dxa6589'"></button>
+
+                <p>Click here to get a quote from a movie or show I like:</p>
+                <button id="quote-button" onclick="addRandomQuote()">Hello</button>
+                <div id="quote-container"></div>
+            </div><br>
+
+            <div id="portfolio"  class="infoBox">
+                <h2>
+                    <div>Projects</div>
+                </h2>
+                <strong>Project Prius</strong> - Terragon Intership
+                <ul>
+                    <li>
+                        A chatbot that acts a avirtual text partner
+                    </li>
+                    <li>
+                        I worked on the backend and implemented the training and
+                        response feature using the chatbot.io Python library.
+                    </li>
+                </ul>
+                <strong>Firm Fatale</strong> — WicHacks2019
+                <ul>
+                    <li>
+                        A mobile web application designed to act like an online
+                        support system for women in male-dominated fields made 
+                        using Javascript, Node.JS, and Google APIs made available
+                        through the hackathon.
+                    </li>
+                    <li>
+                        I designed front-end of project demo using UxPin and 
+                        served a research role in my team. We received the award
+                        for Most Financially Viable Hack.
+                    </li>
+                </ul>
+                <strong>RecipeBot</strong> — WicHacks2020
+                <ul>
+                    <li>
+                        A web-based chatbot designed to lead users through the 
+                        cooking process, using Python, HTML/CSS, Javascript and
+                        Google APIs.
+                    </li>
+                    <li>
+                        I designed the front-end of the site  using HTML/CSS 
+                        technologies and Javascript. For the idea to implement
+                        audio response features with a Google Home Minit, we 
+                        received the award for Best Hardware Hack.
+                    </li>
+                </ul>
+            </div>
+        
+        </div>
+    </body>
+</html>

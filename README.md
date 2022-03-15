@@ -1,7 +1,7 @@
 - 👋 Hi, I’m Dolapo Atobiloye
-- 👀 I’m interested in Video Game Development, QA, Data Management
+- 👀 I’m interested in Video Game Development, QA, Data Management and XR
 - ❤️ I am a huge Musical Theater nerd :)
-- 🌱 I’m currently learning javascript 
+- 🌱 I’m currently learning cmputer graphics and VR development 
 - 💞️ I’m looking to collaborate on amazing game projects!
 - 📫 How to reach me by email at dolapoatobiloye@gmail.com
 
